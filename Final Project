@@ -1,0 +1,14 @@
+Vending Machine Controller IP Verification
+
+Project Overview
+
+This repository contains the UVM-based verification environment for the Vending Machine Controller (VMC) IP. The DUT is a configurable vending machine controller that supports multiple items, currencies, and operational modes. The verification environment ensures the DUT operates correctly under normal, corner-case, and stress scenarios.
+
+Project Objectives Verify reset behavior and initialization sequences. Validate APB-based configuration for read/write operations. Confirm dispense logic and change calculation under all scenarios. Handle error cases such as invalid items, unsupported currencies, underpayment, or out-of-stock conditions. Achieve full functional coverage for robust and reliable design.
+
+Verification Architecture Methodology: Universal Verification Methodology (UVM)
+
+Language: SV
+
+  
+
